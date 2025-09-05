@@ -2,19 +2,19 @@ import './globals.css';
 
 export const metadata = {
   title: 'News Subscription App',
-  description: 'Reúne notícias relevantes para o usuário',
+  description: 'Seu hub de notícias com IA e pagamentos recorrentes',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className="bg-gray-100 text-gray-800">
-        <header className="p-4 bg-white shadow">
-          <h1 className="text-xl font-bold">🚀 News Subscription App</h1>
+      <body>
+        <header style={{ padding: '1rem', background: '#1f2937', color: 'white' }}>
+          <h1>🚀 News Subscription App</h1>
         </header>
-        <main className="p-4">{children}</main>
-        <footer className="p-4 text-center text-gray-500">
-          © 2025 News Subscription App
+        <main>{children}</main>
+        <footer style={{ padding: '1rem', background: '#f3f4f6', textAlign: 'center' }}>
+          <p>Feito com ❤️ e IA</p>
         </footer>
       </body>
     </html>
