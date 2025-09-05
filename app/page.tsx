@@ -1,9 +1,8 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold text-gray-800">
-        🚀 Bem-vindo ao News Subscription App
-      </h1>
-    </main>
+    <section style={{ padding: '2rem' }}>
+      <h2>Bem-vindo ao portal de notícias com IA</h2>
+      <p>Em breve você poderá assinar e receber as principais notícias sobre o tema que mais gosta.</p>
+    </section>
   );
 }
